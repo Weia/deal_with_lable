@@ -2,8 +2,8 @@ import os
 from PIL import Image
 import matplotlib.pyplot as plt
 import  numpy as np
-file_name='180502mirrorlabel/a.txt'
-image_path=r'D:\数据集\数据集\学生照片\1'
+file_name='180502/labelwxw.txt'
+image_path=r'D:\数据集\数据集\学生照片\4'
 file=open(file_name)
 labels=file.readlines()
 for l in labels:
